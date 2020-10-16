@@ -15,7 +15,7 @@ First, clone the project and
 https://github.com/theArjun/disease-predictor.git
 ```
 
-Install the virtual environment.
+Install the virtual environment on your laptop.
 ```
 pip install virtualenv
 ```
