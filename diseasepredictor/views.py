@@ -7,9 +7,9 @@ from sklearn.neighbors import KNeighborsClassifier
 
 def heart(request):
     df = pd.read_csv('static/Heart_train.csv')
-    data = df.values
-    X = data[:, :-1]
-    Y = data[:, -1:]
+    dat = df.values
+    X = dat[:, :-1]
+    Y = dat[:, -1:]
 
     value = ''
 
